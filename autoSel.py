@@ -38,103 +38,185 @@ COUNTRIES_INFO = {
     },
     'Almanya': {
         'dil': 'de',
-        'eyaletler': ['Bayern', 'Berlin', 'Hessen', 'Nordrhein-Westfalen', 'Sachsen', 'Baden-Württemberg', 'Hamburg', 'Niedersachsen']
+        'eyaletler': [
+            'Bayern', 'Berlin', 'Hessen', 'Nordrhein-Westfalen', 'Sachsen', 
+            'Baden-Württemberg', 'Hamburg', 'Niedersachsen', 'Bremen', 'Saarland', 
+            'Schleswig-Holstein', 'Rheinland-Pfalz', 'Thüringen', 'Sachsen-Anhalt',
+            'Brandenburg', 'Mecklenburg-Vorpommern',
+            # Büyük şehirler
+            'München', 'Frankfurt', 'Köln', 'Düsseldorf', 'Stuttgart', 'Dresden', 'Leipzig',
+            'Hannover', 'Nürnberg', 'Dortmund', 'Essen', 'Bremen', 'Bonn', 'Wuppertal', 
+            'Karlsruhe', 'Mannheim', 'Augsburg', 'Wiesbaden', 'Münster', 'Rostock'
+        ]
     },
     'Fransa': {
         'dil': 'fr',
-        'eyaletler': ['Île-de-France', 'Auvergne-Rhône-Alpes', 'Bretagne', 'Grand Est', 'Normandie', 'Provence-Alpes-Côte d\'Azur']
+        'eyaletler': [
+            'Île-de-France', 'Auvergne-Rhône-Alpes', 'Bretagne', 'Grand Est', 'Normandie', 
+            'Provence-Alpes-Côte d\'Azur', 'Hauts-de-France', 'Nouvelle-Aquitaine', 
+            'Occitanie', 'Pays de la Loire', 'Bourgogne-Franche-Comté', 'Centre-Val de Loire',
+            'Corse',
+            # Büyük şehirler
+            'Paris', 'Marseille', 'Lyon', 'Toulouse', 'Nice', 'Nantes', 'Strasbourg', 
+            'Montpellier', 'Bordeaux', 'Lille', 'Rennes', 'Reims', 'Le Havre', 'Saint-Étienne',
+            'Toulon', 'Angers', 'Grenoble', 'Dijon', 'Le Mans', 'Clermont-Ferrand'
+        ]
     },
     'İspanya': {
         'dil': 'es',
-        'eyaletler': ['Madrid', 'Cataluña', 'Andalucía', 'Asturias', 'Galicia']
+        'eyaletler': [
+            'Andalucía', 'Aragón', 'Asturias', 'Cantabria', 'Castilla-La Mancha', 
+            'Castilla y León', 'Cataluña', 'Comunidad Valenciana', 'Extremadura', 
+            'Galicia', 'Madrid', 'Murcia', 'Navarra', 'País Vasco', 'La Rioja',
+            # Büyük şehirler
+            'Madrid', 'Barcelona', 'Valencia', 'Sevilla', 'Zaragoza', 'Málaga', 
+            'Murcia', 'Palma de Mallorca', 'Las Palmas', 'Bilbao', 'Alicante', 
+            'Córdoba', 'Valladolid', 'Vigo', 'Gijón', 'Granada', 'A Coruña', 
+            'Vitoria-Gasteiz', 'Oviedo', 'Sabadell'
+        ]
     },
-    'İsveç': {
-        'dil': 'sv',
-        'eyaletler': ['Stockholm', 'Göteborg', 'Malmö', 'Uppsala', 'Kiruna']
-    },
-    'Norveç': {
-        'dil': 'no',
-        'eyaletler': ['Oslo', 'Bergen', 'Trondheim', 'Stavanger', 'Tromsø']
-    },
-    'Polonya': {
-        'dil': 'pl',
-        'eyaletler': ['Warszawa', 'Kraków', 'Łódź', 'Wrocław', 'Poznań']
-    },
-    'Rusya': {
-        'dil': 'ru',
-        'eyaletler': ['Москва', 'Санкт-Петербург', 'Новосибирск', 'Екатеринбург', 'Кемерово']
-    },
-    'Çin': {
-        'dil': 'zh',
-        'eyaletler': ['北京', '上海', '广州', '深圳', '重庆']
-    },
-    'Hindistan': {
-        'dil': 'hi',
-        'eyaletler': ['मुंबई', 'दिल्ली', 'बैंगलोर', 'हैदराबाद', 'कोलकाता']
-    },
-    'Endonezya': {
-        'dil': 'id',
-        'eyaletler': ['Jakarta', 'Surabaya', 'Bandung', 'Medan', 'Makassar']
-    },
-    'Kazakistan': {
-        'dil': 'kk',
-        'eyaletler': ['Алматы', 'Нұр-Сұлтан', 'Шымкент', 'Қарағанды', 'Атырау']
-    },
-    'Mongolia': {
-        'dil': 'mn',
-        'eyaletler': ['Улаанбаатар', 'Эрдэнэт', 'Дархан', 'Чойбалсан', 'Кобдо']
+    'İngiltere': {
+        'dil': 'en',
+        'eyaletler': [
+            'England', 'Scotland', 'Wales', 'Northern Ireland',
+            # Büyük şehirler
+            'London', 'Birmingham', 'Manchester', 'Glasgow', 'Liverpool', 'Leeds',
+            'Newcastle', 'Sheffield', 'Bristol', 'Edinburgh', 'Leicester', 'Coventry',
+            'Cardiff', 'Belfast', 'Nottingham', 'Hull', 'Bradford', 'Aberdeen', 
+            'Southampton', 'Oxford', 'Cambridge', 'York', 'Reading', 'Brighton'
+        ]
     },
     'ABD': {
         'dil': 'en',
-        'eyaletler': ['California', 'Texas', 'Nevada', 'Colorado', 'Arizona', 'Montana', 'West Virginia', 'Pennsylvania']
+        'eyaletler': [
+            'Alabama', 'Alaska', 'Arizona', 'Arkansas', 'California', 'Colorado', 
+            'Connecticut', 'Delaware', 'Florida', 'Georgia', 'Hawaii', 'Idaho', 
+            'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 
+            'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 
+            'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 
+            'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 
+            'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 
+            'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 
+            'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 
+            'West Virginia', 'Wisconsin', 'Wyoming',
+            # Büyük şehirler
+            'New York City', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 
+            'Philadelphia', 'San Antonio', 'San Diego', 'Dallas', 'San Jose', 
+            'Austin', 'Jacksonville', 'San Francisco', 'Columbus', 'Charlotte',
+            'Indianapolis', 'Seattle', 'Denver', 'Washington DC', 'Boston',
+            'Nashville', 'Las Vegas', 'Portland', 'Detroit', 'Atlanta'
+        ]
     },
-    'Kanada': {
-        'dil': 'en',
-        'eyaletler': ['Alberta', 'British Columbia', 'Ontario', 'Quebec', 'Yukon']
+    'Rusya': {
+        'dil': 'ru',
+        'eyaletler': [
+            'Moskova', 'Sankt-Peterburg', 'Novosibirsk', 'Ekaterinburg', 'Kazan',
+            'Chelyabinsk', 'Omsk', 'Samara', 'Rostov-on-Don', 'Ufa', 'Krasnoyarsk',
+            'Perm', 'Voronezh', 'Volgograd', 'Krasnodar', 'Saratov', 'Tyumen',
+            'Tolyatti', 'Izhevsk', 'Barnaul', 'Ulyanovsk', 'Irkutsk', 'Khabarovsk',
+            'Yaroslavl', 'Vladivostok', 'Tomsk', 'Nizhny Novgorod'
+        ]
+    },
+    'Çin': {
+        'dil': 'zh',
+        'eyaletler': [
+            'Beijing', 'Shanghai', 'Guangzhou', 'Shenzhen', 'Tianjin', 'Chongqing',
+            'Wuhan', 'Chengdu', 'Nanjing', 'Xi\'an', 'Hangzhou', 'Shenyang', 
+            'Zhengzhou', 'Qingdao', 'Dalian', 'Jinan', 'Harbin', 'Changsha',
+            'Suzhou', 'Ningbo', 'Wuxi', 'Fuzhou', 'Xiamen', 'Kunming', 'Dongguan',
+            'Hefei', 'Changchun', 'Nanning', 'Nanchang', 'Urumqi', 'Guiyang'
+        ]
+    },
+    'Hindistan': {
+        'dil': 'hi',
+        'eyaletler': [
+            'Delhi', 'Mumbai', 'Kolkata', 'Chennai', 'Bangalore', 'Hyderabad',
+            'Ahmedabad', 'Pune', 'Jaipur', 'Lucknow', 'Kanpur', 'Nagpur', 'Indore',
+            'Thane', 'Bhopal', 'Visakhapatnam', 'Patna', 'Vadodara', 'Ludhiana',
+            'Agra', 'Nashik', 'Faridabad', 'Surat', 'Coimbatore', 'Rajkot',
+            'Ghaziabad', 'Varanasi', 'Amritsar', 'Chandigarh', 'Allahabad'
+        ]
     },
     'Brezilya': {
         'dil': 'pt',
-        'eyaletler': ['São Paulo', 'Rio de Janeiro', 'Minas Gerais', 'Pará', 'Bahia']
-    },
-    'Şili': {
-        'dil': 'es',
-        'eyaletler': ['Santiago', 'Antofagasta', 'Copiapó', 'La Serena', 'Valparaíso']
-    },
-    'Peru': {
-        'dil': 'es',
-        'eyaletler': ['Lima', 'Arequipa', 'Trujillo', 'Cusco', 'Piura']
-    },
-    'Meksika': {
-        'dil': 'es',
-        'eyaletler': ['Ciudad de México', 'Guadalajara', 'Monterrey', 'Puebla', 'Zacatecas']
+        'eyaletler': [
+            'São Paulo', 'Rio de Janeiro', 'Brasília', 'Salvador', 'Fortaleza',
+            'Belo Horizonte', 'Manaus', 'Curitiba', 'Recife', 'Porto Alegre',
+            'Belém', 'Goiânia', 'Guarulhos', 'Campinas', 'São Luís', 'São Gonçalo',
+            'Maceió', 'Duque de Caxias', 'Natal', 'Campo Grande', 'Teresina',
+            'São Bernardo do Campo', 'Nova Iguaçu', 'João Pessoa', 'Santo André',
+            'Osasco', 'São José dos Campos', 'Jaboatão dos Guararapes'
+        ]
     },
     'Güney Afrika': {
         'dil': 'en',
-        'eyaletler': ['Johannesburg', 'Cape Town', 'Durban', 'Pretoria', 'Kimberley']
-    },
-    'Kongo': {
-        'dil': 'fr',
-        'eyaletler': ['Kinshasa', 'Lubumbashi', 'Kisangani', 'Bukavu', 'Goma']
-    },
-    'Zambiya': {
-        'dil': 'en',
-        'eyaletler': ['Lusaka', 'Kitwe', 'Ndola', 'Kabwe', 'Chingola']
-    },
-    'Gana': {
-        'dil': 'en',
-        'eyaletler': ['Accra', 'Kumasi', 'Tamale', 'Sekondi-Takoradi', 'Obuasi']
-    },
-    'Mali': {
-        'dil': 'fr',
-        'eyaletler': ['Bamako', 'Sikasso', 'Mopti', 'Gao', 'Kayes']
+        'eyaletler': [
+            'Cape Town', 'Durban', 'Johannesburg', 'Pretoria', 'Port Elizabeth',
+            'Bloemfontein', 'Nelspruit', 'Kimberley', 'Polokwane', 'Rustenburg',
+            'Pietermaritzburg', 'Benoni', 'Witbank', 'Boksburg', 'Welkom',
+            'Newcastle', 'Krugersdorp', 'Botshabelo', 'Richards Bay', 'Brakpan'
+        ]
     },
     'Avustralya': {
         'dil': 'en',
-        'eyaletler': ['Sydney', 'Melbourne', 'Perth', 'Brisbane', 'Adelaide']
+        'eyaletler': [
+            'Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Adelaide', 'Gold Coast',
+            'Canberra', 'Newcastle', 'Wollongong', 'Logan City', 'Geelong',
+            'Hobart', 'Townsville', 'Cairns', 'Darwin', 'Toowoomba', 'Ballarat',
+            'Bendigo', 'Launceston', 'Mackay', 'Rockhampton', 'Bunbury'
+        ]
     },
-    'Yeni Zelanda': {
+    'Kanada': {
         'dil': 'en',
-        'eyaletler': ['Auckland', 'Wellington', 'Christchurch', 'Hamilton', 'Dunedin']
+        'eyaletler': [
+            'Toronto', 'Montreal', 'Vancouver', 'Calgary', 'Edmonton', 'Ottawa',
+            'Quebec City', 'Winnipeg', 'Hamilton', 'Kitchener', 'London', 'Halifax',
+            'Victoria', 'Windsor', 'Saskatoon', 'Regina', 'Burnaby', 'Richmond',
+            'Mississauga', 'Surrey', 'Laval', 'Markham', 'Vaughan', 'Gatineau'
+        ]
+    },
+    'Japonya': {
+        'dil': 'en',  # Japonca desteklenmiyorsa İngilizce kullanılır
+        'eyaletler': [
+            'Tokyo', 'Yokohama', 'Osaka', 'Nagoya', 'Sapporo', 'Kobe', 'Kyoto',
+            'Fukuoka', 'Kawasaki', 'Saitama', 'Hiroshima', 'Sendai', 'Kitakyushu',
+            'Chiba', 'Sakai', 'Niigata', 'Hamamatsu', 'Kumamoto', 'Okayama',
+            'Shizuoka', 'Kanazawa', 'Kagoshima', 'Nagasaki', 'Matsuyama'
+        ]
+    },
+    'İtalya': {
+        'dil': 'en',  # İtalyanca desteklenmiyorsa İngilizce kullanılır
+        'eyaletler': [
+            'Roma', 'Milano', 'Napoli', 'Torino', 'Palermo', 'Genova', 'Bologna',
+            'Firenze', 'Bari', 'Catania', 'Venezia', 'Verona', 'Messina', 'Padova',
+            'Trieste', 'Taranto', 'Brescia', 'Prato', 'Reggio Calabria', 'Modena',
+            'Parma', 'Cagliari', 'Livorno', 'Salerno', 'Perugia', 'Rimini'
+        ]
+    },
+    'Meksika': {
+        'dil': 'es',
+        'eyaletler': [
+            'Mexico City', 'Guadalajara', 'Monterrey', 'Puebla', 'Tijuana', 'León',
+            'Juárez', 'Zapopan', 'Ecatepec', 'Mexicali', 'Culiacán', 'Mérida',
+            'Chihuahua', 'San Luis Potosí', 'Aguascalientes', 'Querétaro', 'Morelia',
+            'Hermosillo', 'Saltillo', 'Cancún', 'Toluca', 'Acapulco', 'Tampico'
+        ]
+    },
+    'Polonya': {
+        'dil': 'pl',
+        'eyaletler': [
+            'Warszawa', 'Kraków', 'Łódź', 'Wrocław', 'Poznań', 'Gdańsk', 'Szczecin',
+            'Bydgoszcz', 'Lublin', 'Katowice', 'Białystok', 'Gdynia', 'Częstochowa',
+            'Radom', 'Sosnowiec', 'Toruń', 'Kielce', 'Rzeszów', 'Olsztyn', 'Gliwice'
+        ]
+    },
+    'Güney Kore': {
+        'dil': 'en',  # Korece desteklenmiyorsa İngilizce kullanılır
+        'eyaletler': [
+            'Seoul', 'Busan', 'Incheon', 'Daegu', 'Daejeon', 'Gwangju', 'Suwon',
+            'Ulsan', 'Changwon', 'Goyang', 'Seongnam', 'Bucheon', 'Jeonju', 'Cheongju',
+            'Ansan', 'Anyang', 'Cheonan', 'Hwaseong', 'Pohang', 'Jeju'
+        ]
     }
 }
 
@@ -1122,7 +1204,7 @@ def create_combined_excel(all_results, timestamp):
                                     address = line
                                     is_address = True
                                     break
-                        
+                    
                         if is_address:
                             continue
                         
@@ -1977,15 +2059,28 @@ def search_coal_mines_worldwide():
     print(f"\nTüm sonuçlar {json_filename} dosyasına kaydedildi.")
     json_files.append(json_filename)
     
-    # JSON dosyalarını paralel olarak Excel'e dönüştür
+    # JSON dosyalarını paralel olarak ayrı ayrı Excel'e dönüştür
     print("\nJSON dosyaları paralel olarak Excel'e dönüştürülüyor...")
+    excel_files = []
     with concurrent.futures.ThreadPoolExecutor() as executor:
         future_to_file = {executor.submit(json_to_excel, file): file for file in json_files}
         for future in concurrent.futures.as_completed(future_to_file):
-            print(future.result())
+            result = future.result()
+            if result:
+                excel_files.append(result)
+                print(f"Dönüştürüldü: {result}")
     
-    # Tek bir büyük Excel dosyası oluştur
-    create_combined_excel_coal_mines(all_results, timestamp)
+    # Tek bir büyük Excel dosyası da oluştur
+    print("\nAyrıca tüm kömür madeni sonuçları tek bir Excel dosyasına dönüştürülüyor...")
+    excel_filename = create_combined_excel_coal_mines(all_results, timestamp)
+    if excel_filename:
+        excel_files.append(excel_filename)
+        print(f"Tüm sonuçlar tek bir dosyada toplandı: {excel_filename}")
+    
+    # Oluşturulan tüm Excel dosyalarını listele
+    print("\nOluşturulan Excel dosyaları:")
+    for file in excel_files:
+        print(f"- {file}")
     
     return all_results
 
@@ -2004,262 +2099,16 @@ def create_combined_excel_coal_mines(all_results, timestamp):
             if "genel" in country_data:
                 for item in country_data["genel"]:
                     # Veri ayrıştırmayı mevcut yapılara benzer şekilde yap
-                    lines = item.split('\n') if isinstance(item, str) else [""]
-                    company_name = lines[0] if lines else ""
-                    
-                    # Adres ve diğer bilgileri ayrıştır
-                    address = ""
-                    phone = ""
-                    website = ""
-                    rating = ""
-                    email = ""
-                    description = ""
-                    location_type = ""
-                    opening_hours = ""
-                    
-                    # Rating ve review sayısını ayır (örn: 4.5 yıldız 123 yorum)
-                    rating_value = ""
-                    review_count = ""
-                    
-                    # Telefon numarası için regex desenler
-                    phone_patterns = [
-                        r'\+\d[\d\s\-\(\)]{5,20}',  # Uluslararası formatlar
-                        r'0[\d\s\-\(\)]{5,15}',      # Türkiye formatları (0 ile başlayan)
-                        r'\(\d+\)\s*\d+[\d\s\-]{5,15}',  # (555) 123 45 67 formatı
-                        r'\d{3,4}[\s\-]?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}'  # 555 123 45 67 formatı
-                    ]
-                    
-                    # Web sitesi için regex deseni
-                    website_patterns = [
-                        r'(https?://)?([a-zA-Z0-9][-a-zA-Z0-9]*\.)+[a-zA-Z]{2,}(/[-a-zA-Z0-9%_.~#+]*)*',
-                        r'www\.[a-zA-Z0-9][-a-zA-Z0-9]*\.[a-zA-Z]{2,}(/[-a-zA-Z0-9%_.~#+]*)*'
-                    ]
-                    
-                    # Açılış-kapanış saati için regex deseni
-                    hours_patterns = [
-                        r'(Açık|Kapalı)\s*⋅\s*Kapanış\s*saati:\s*\d{1,2}:\d{2}',
-                        r'(Açık|Kapalı)\s*⋅\s*Açılış\s*zamanı:\s*\w{2,3}\s*\d{1,2}:\d{2}',
-                        r'(Açık|Kapalı|Şu anda açık|24 saat açık|Geçici olarak kapalı|Kapanmak üzere)',
-                        r'\d{1,2}:\d{2}(\s*-\s*\d{1,2}:\d{2})?'
-                    ]
-                    
-                    # Adres için olası işaretler
-                    address_patterns = [
-                        r'[A-Z][a-zA-ZğüşiöçĞÜŞİÖÇ]+\s+(Cad(desi)?|Sk|Sokak|Bulvarı|Mahallesi|Mah\.)',
-                        r'No:\s*\d+',
-                        r'Kat:?\s*\d+',
-                        r'Daire:?\s*\d+'
-                    ]
-                    
-                    for i, line in enumerate(lines[1:], 1):
-                        line = line.strip()
-                        # Boş satırları atla
-                        if not line:
-                            continue
-                        
-                        line_lower = line.lower()
-                        
-                        # İşletme türü kontrolü
-                        if i == 1 and any(type_word in line_lower for type_word in ['maden', 'ocak', 'şirket', 'mine', 'company', 'madencilik', 'müze', 'taş', 'kömür', 'coal']):
-                            if len(line) < 50:  # İşletme türü genelde kısa
-                                location_type = line
-                                continue
-                        
-                        # Puan/değerlendirme kontrolü
-                        # 4,5(13) gibi formatları kontrol et - bu puan ve yorum sayısıdır, adres değil
-                        if re.match(r'^\d+[,.]\d+\(\d+\)$', line):
-                            rating_match = re.search(r'(\d+[,.]\d+)', line)
-                            if rating_match:
-                                rating_value = rating_match.group(0)
-                            
-                            review_match = re.search(r'\((\d+)\)', line)
-                            if review_match:
-                                review_count = review_match.group(1)
-                            
-                            rating = f"{rating_value} puan, {review_count} yorum"
-                            continue
-                        
-                        # Açılış-kapanış saati kontrolü
-                        is_hours = False
-                        for pattern in hours_patterns:
-                            if re.search(pattern, line):
-                                opening_hours = line
-                                is_hours = True
-                                break
-                        
-                        if is_hours:
-                            continue
-                        
-                        # Telefon numarası kontrolü - sadece gerçek telefon numaralarını yakala
-                        is_phone = False
-                        for pattern in phone_patterns:
-                            if re.search(pattern, line) and not "Kapanış saati" in line and not "Açılış zamanı" in line:
-                                # Telefon numarasından önce açılış-kapanış bilgisi varsa, bu kısmı temizle
-                                phone_part = re.search(pattern, line).group(0)
-                                
-                                # Sadece zaman içeriyor mu kontrol et (bu durumda telefon değil çalışma saati olabilir)
-                                if re.match(r'^\d{1,2}:\d{2}$', phone_part):
-                                    continue
-                                    
-                                phone = phone_part
-                                is_phone = True
-                                break
-                        
-                        if is_phone:
-                            continue
-                            
-                        # E-posta kontrolü - hem doğrudan e-posta formatı hem de "e-mail: xxx@yyy.com" gibi formatları yakala
-                        if '@' in line:
-                            email_match = re.search(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', line)
-                            if email_match:
-                                email = email_match.group(0)
-                                continue
-                            
-                            # E-posta etiketi varsa
-                            if 'e-mail' in line_lower or 'email' in line_lower or 'e-posta' in line_lower or 'mail' in line_lower:
-                                parts = line.split(':')
-                                if len(parts) > 1:
-                                    email = parts[1].strip()
-                                    continue
-                        
-                        # Web sitesi kontrolü
-                        for pattern in website_patterns:
-                            website_match = re.search(pattern, line)
-                            if website_match:
-                                website = website_match.group(0)
-                                break
-                        
-                        # Eğer sadece "Web sitesi" yazıyorsa, bu bir link değil etikettir
-                        if line_lower == "web sitesi" or line_lower == "website":
-                            continue
-                        
-                        # Eğer web sitesi bulunmuşsa, sonraki adıma geç
-                        if website:
-                            continue
-                        
-                        # Adres kontrolü - tipik adres kalıpları
-                        is_address = False
-                        for pattern in address_patterns:
-                            if re.search(pattern, line):
-                                # Adres olarak işaretle ve başka bir şey olup olmadığını kontrol et
-                                if not address:
-                                    address = line
-                                    is_address = True
-                                    break
-                        
-                        if is_address:
-                            continue
-                        
-                        # Eğer adres belirlenmemişse ve bu satır işletme türünden hemen sonra geliyorsa, muhtemelen adrestir
-                        if not address and i == 2 and location_type:
-                            # Açılış/kapanış saati veya telefon numarası değilse adres olabilir
-                            if not any(x in line_lower for x in ["açık", "kapalı"]) and not re.search(r'\d+[,.]\d+\(\d+\)', line):
-                                address = line
-                                continue
-                        
-                        # Uzun metinler açıklama olabilir
-                        if len(line) > 100:
-                            description += line + "\n"
-                            continue
-                        
-                        # Kaydedilmemiş ve anlam ifade eden bir satır kaldıysa, açıklamaya ekle
-                        if len(line) > 3:
-                            description += line + "\n"
-                    
-                    # Tüm Bilgiler içinde telefon ve e-posta ara (eğer hâlâ bulunamadıysa)
-                    if not phone:
-                        for pattern in phone_patterns:
-                            matches = re.findall(pattern, item)
-                            if matches:
-                                for match in matches:
-                                    # Açılış-kapanış saati değilse
-                                    if not any(x in match for x in [":", "⋅"]):
-                                        phone = match
-                                        break
-                                if phone:
-                                    break
-                    
-                    # Telefonu tekrar kontrol et - Açılış saati yerine telefon göstermediğinden emin ol
-                    if phone and (re.match(r'^\d{1,2}:\d{2}$', phone) or "Kapanış saati" in phone or "Açılış zamanı" in phone):
-                        phone = ""
-                    
-                    # E-posta aramaya devam et
-                    if not email:
-                        email_matches = re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', item)
-                        if email_matches:
-                            email = email_matches[0]
-                    
-                    # Web sitesi bulunamadıysa, ilgili metni ara
-                    if not website:
-                        for pattern in website_patterns:
-                            website_matches = re.findall(pattern, item)
-                            if website_matches:
-                                website = website_matches[0]
-                                break
-                    
-                    # Ayrıştırılmış verileri ekle
-                    excel_data.append({
-                        'Ülke': country,
-                        'Eyalet/Şehir': 'Genel',
-                        'Dil': country_lang,
-                        'Şirket Adı': company_name,
-                        'İşletme Türü': location_type,
-                        'Adres': address,
-                        'Telefon': phone,
-                        'E-posta': email,
-                        'Web Sitesi': website,
-                        'Değerlendirme': rating,
-                        'Puan': rating_value,
-                        'Yorum Sayısı': review_count,
-                        'Açıklama': description,
-                        'Çalışma Saatleri': opening_hours,
-                        'Tüm Bilgiler': item
-                    })
+                    processed_data = parse_business_data(item, country, "Genel", country_lang)
+                    excel_data.append(processed_data)
             
             # Eyalet/şehir sonuçları
             if "eyaletler" in country_data:
                 for state, state_data in country_data["eyaletler"].items():
                     for item in state_data:
                         # Veri ayrıştırmayı mevcut yapılara benzer şekilde yap
-                        # (Genel ülke sonuçlarıyla aynı ayrıştırma kodunu kullan)
-                        lines = item.split('\n') if isinstance(item, str) else [""]
-                        company_name = lines[0] if lines else ""
-                        
-                        # Adres ve diğer bilgileri ayrıştır
-                        address = ""
-                        phone = ""
-                        website = ""
-                        rating = ""
-                        email = ""
-                        description = ""
-                        location_type = ""
-                        opening_hours = ""
-                        
-                        # Rating ve review sayısını ayır (örn: 4.5 yıldız 123 yorum)
-                        rating_value = ""
-                        review_count = ""
-                        
-                        # (Aynı ayrıştırma kodunu kullanmaya devam et)
-                        # ... (Kod uzunluğu nedeniyle kısalttım, ancak gerçek kodunuzda tam ayrıştırma mantığını koruyun)
-                
-                        # Ayrıştırılmış verileri ekle
-                        excel_data.append({
-                            'Ülke': country,
-                            'Eyalet/Şehir': state,
-                            'Dil': country_lang,
-                            'Şirket Adı': company_name,
-                            'İşletme Türü': location_type,
-                            'Adres': address,
-                            'Telefon': phone,
-                            'E-posta': email,
-                            'Web Sitesi': website,
-                            'Değerlendirme': rating,
-                            'Puan': rating_value,
-                            'Yorum Sayısı': review_count,
-                            'Açıklama': description,
-                            'Çalışma Saatleri': opening_hours,
-                            'Tüm Bilgiler': item
-                        })
+                        processed_data = parse_business_data(item, country, state, country_lang)
+                        excel_data.append(processed_data)
         
         if excel_data:
             # DataFrame'e dönüştür
@@ -2271,7 +2120,7 @@ def create_combined_excel_coal_mines(all_results, timestamp):
             with pd.ExcelWriter(excel_filename, engine='openpyxl') as writer:
                 df.to_excel(writer, index=False, sheet_name='Kömür Madenleri')
                 
-                # Excel dosyasını güzelleştir (mevcut kodunuzdaki gibi)
+                # Excel dosyasını güzelleştir
                 workbook = writer.book
                 worksheet = writer.sheets['Kömür Madenleri']
                 
@@ -2286,17 +2135,285 @@ def create_combined_excel_coal_mines(all_results, timestamp):
                     bottom=Side(border_style='thin', color='000000')
                 )
                 
-                # (Excel formatlamasını mevcut kodunuzdaki gibi yapmaya devam edin)
+                # Sütun genişliklerini ayarla
+                column_widths = {
+                    'A': 15,  # Ülke
+                    'B': 20,  # Eyalet/Şehir
+                    'C': 10,  # Dil
+                    'D': 35,  # Şirket Adı
+                    'E': 20,  # İşletme Türü
+                    'F': 40,  # Adres
+                    'G': 20,  # Telefon
+                    'H': 30,  # E-posta
+                    'I': 30,  # Web Sitesi
+                    'J': 20,  # Değerlendirme
+                    'K': 10,  # Puan
+                    'L': 15,  # Yorum Sayısı
+                    'M': 50,  # Açıklama
+                    'N': 20,  # Çalışma Saatleri
+                    'O': 100,  # Tüm Bilgiler
+                }
+                
+                for col_letter, width in column_widths.items():
+                    worksheet.column_dimensions[col_letter].width = width
+                
+                # Başlık satırını biçimlendir
+                for cell in worksheet[1]:
+                    cell.fill = header_fill
+                    cell.font = header_font
+                    cell.alignment = header_alignment
+                    cell.border = border
+                
+                # Veri satırlarını biçimlendir
+                data_alignment = Alignment(vertical='top', wrap_text=True)
+                data_border = Border(
+                    left=Side(border_style='thin', color='000000'),
+                    right=Side(border_style='thin', color='000000'),
+                    top=Side(border_style='thin', color='000000'),
+                    bottom=Side(border_style='thin', color='000000')
+                )
+                
+                # Alternatif satır renklendirmesi
+                even_fill = PatternFill(start_color="F2F2F2", end_color="F2F2F2", fill_type="solid")
+                
+                for row_idx, row in enumerate(worksheet.iter_rows(min_row=2, max_row=len(excel_data) + 1), 2):
+                    # Alternatif satır renklendirmesi
+                    if row_idx % 2 == 0:
+                        for cell in row:
+                            cell.fill = even_fill
+                    
+                    # Tüm hücrelere kenarlık ve hizalama ekle
+                    for cell in row:
+                        cell.alignment = data_alignment
+                        cell.border = data_border
             
             print(f"Tüm kömür madeni sonuçları {excel_filename} dosyasına dönüştürüldü.")
+            return excel_filename
         else:
             print("Excel'e dönüştürülecek veri bulunamadı.")
+            return None
 
     except Exception as e:
         print(f"Birleştirilmiş Excel oluşturma hatası: {e}")
         traceback.print_exc()
+        return None
 
-# Main bloğuna yeni fonksiyonumuzu ekleyelim
+def parse_business_data(item, country, state, language):
+    """Maden şirketi verilerini ayrıştırır ve düzenli bir yapıya dönüştürür"""
+    # Veri ayrıştırmayı mevcut yapılara benzer şekilde yap
+    lines = item.split('\n') if isinstance(item, str) else [""]
+    company_name = lines[0] if lines else ""
+    
+    # Adres ve diğer bilgileri ayrıştır
+    address = ""
+    phone = ""
+    website = ""
+    rating = ""
+    email = ""
+    description = ""
+    location_type = ""
+    opening_hours = ""
+    
+    # Rating ve review sayısını ayır (örn: 4.5 yıldız 123 yorum)
+    rating_value = ""
+    review_count = ""
+    
+    # Telefon numarası için regex desenler
+    phone_patterns = [
+        r'\+\d[\d\s\-\(\)]{5,20}',  # Uluslararası formatlar
+        r'0[\d\s\-\(\)]{5,15}',      # Türkiye formatları (0 ile başlayan)
+        r'\(\d+\)\s*\d+[\d\s\-]{5,15}',  # (555) 123 45 67 formatı
+        r'\d{3,4}[\s\-]?\d{3}[\s\-]?\d{2}[\s\-]?\d{2}'  # 555 123 45 67 formatı
+    ]
+    
+    # Web sitesi için regex deseni
+    website_patterns = [
+        r'(https?://)?([a-zA-Z0-9][-a-zA-Z0-9]*\.)+[a-zA-Z]{2,}(/[-a-zA-Z0-9%_.~#+]*)*',
+        r'www\.[a-zA-Z0-9][-a-zA-Z0-9]*\.[a-zA-Z]{2,}(/[-a-zA-Z0-9%_.~#+]*)*'
+    ]
+    
+    # Açılış-kapanış saati için regex deseni
+    hours_patterns = [
+        r'(Açık|Kapalı)\s*⋅\s*Kapanış\s*saati:\s*\d{1,2}:\d{2}',
+        r'(Açık|Kapalı)\s*⋅\s*Açılış\s*zamanı:\s*\w{2,3}\s*\d{1,2}:\d{2}',
+        r'(Açık|Kapalı|Şu anda açık|24 saat açık|Geçici olarak kapalı|Kapanmak üzere)',
+        r'\d{1,2}:\d{2}(\s*-\s*\d{1,2}:\d{2})?'
+    ]
+    
+    # Adres için olası işaretler
+    address_patterns = [
+        r'[A-Z][a-zA-ZğüşiöçĞÜŞİÖÇ]+\s+(Cad(desi)?|Sk|Sokak|Bulvarı|Mahallesi|Mah\.)',
+        r'No:\s*\d+',
+        r'Kat:?\s*\d+',
+        r'Daire:?\s*\d+'
+    ]
+    
+    for i, line in enumerate(lines[1:], 1):
+        line = line.strip()
+        # Boş satırları atla
+        if not line:
+            continue
+        
+        line_lower = line.lower()
+        
+        # İşletme türü kontrolü
+        if i == 1 and any(type_word in line_lower for type_word in ['maden', 'ocak', 'şirket', 'mine', 'company', 'madencilik', 'müze', 'taş', 'kömür', 'coal']):
+            if len(line) < 50:  # İşletme türü genelde kısa
+                location_type = line
+                continue
+        
+        # Puan/değerlendirme kontrolü
+        # 4,5(13) gibi formatları kontrol et - bu puan ve yorum sayısıdır, adres değil
+        if re.match(r'^\d+[,.]\d+\(\d+\)$', line):
+            rating_match = re.search(r'(\d+[,.]\d+)', line)
+            if rating_match:
+                rating_value = rating_match.group(0)
+            
+            review_match = re.search(r'\((\d+)\)', line)
+            if review_match:
+                review_count = review_match.group(1)
+            
+            rating = f"{rating_value} puan, {review_count} yorum"
+            continue
+        
+        # Açılış-kapanış saati kontrolü
+        is_hours = False
+        for pattern in hours_patterns:
+            if re.search(pattern, line):
+                opening_hours = line
+                is_hours = True
+                break
+        
+        if is_hours:
+            continue
+        
+        # Telefon numarası kontrolü - sadece gerçek telefon numaralarını yakala
+        is_phone = False
+        for pattern in phone_patterns:
+            if re.search(pattern, line) and not "Kapanış saati" in line and not "Açılış zamanı" in line:
+                # Telefon numarasından önce açılış-kapanış bilgisi varsa, bu kısmı temizle
+                phone_part = re.search(pattern, line).group(0)
+                
+                # Sadece zaman içeriyor mu kontrol et (bu durumda telefon değil çalışma saati olabilir)
+                if re.match(r'^\d{1,2}:\d{2}$', phone_part):
+                    continue
+                    
+                phone = phone_part
+                is_phone = True
+                break
+        
+        if is_phone:
+            continue
+            
+        # E-posta kontrolü - hem doğrudan e-posta formatı hem de "e-mail: xxx@yyy.com" gibi formatları yakala
+        if '@' in line:
+            email_match = re.search(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', line)
+            if email_match:
+                email = email_match.group(0)
+                continue
+            
+            # E-posta etiketi varsa
+            if 'e-mail' in line_lower or 'email' in line_lower or 'e-posta' in line_lower or 'mail' in line_lower:
+                parts = line.split(':')
+                if len(parts) > 1:
+                    email = parts[1].strip()
+                    continue
+        
+        # Web sitesi kontrolü
+        for pattern in website_patterns:
+            website_match = re.search(pattern, line)
+            if website_match:
+                website = website_match.group(0)
+                break
+        
+        # Eğer sadece "Web sitesi" yazıyorsa, bu bir link değil etikettir
+        if line_lower == "web sitesi" or line_lower == "website":
+            continue
+        
+        # Eğer web sitesi bulunmuşsa, sonraki adıma geç
+        if website:
+            continue
+        
+        # Adres kontrolü - tipik adres kalıpları
+        is_address = False
+        for pattern in address_patterns:
+            if re.search(pattern, line):
+                # Adres olarak işaretle ve başka bir şey olup olmadığını kontrol et
+                if not address:
+                    address = line
+                    is_address = True
+                    break
+        
+        if is_address:
+            continue
+        
+        # Eğer adres belirlenmemişse ve bu satır işletme türünden hemen sonra geliyorsa, muhtemelen adrestir
+        if not address and i == 2 and location_type:
+            # Açılış/kapanış saati veya telefon numarası değilse adres olabilir
+            if not any(x in line_lower for x in ["açık", "kapalı"]) and not re.search(r'\d+[,.]\d+\(\d+\)', line):
+                address = line
+                continue
+        
+        # Uzun metinler açıklama olabilir
+        if len(line) > 100:
+            description += line + "\n"
+            continue
+        
+        # Kaydedilmemiş ve anlam ifade eden bir satır kaldıysa, açıklamaya ekle
+        if len(line) > 3:
+            description += line + "\n"
+    
+    # Tüm Bilgiler içinde telefon ve e-posta ara (eğer hâlâ bulunamadıysa)
+    if not phone:
+        for pattern in phone_patterns:
+            matches = re.findall(pattern, item)
+            if matches:
+                for match in matches:
+                    # Açılış-kapanış saati değilse
+                    if not any(x in match for x in [":", "⋅"]):
+                        phone = match
+                        break
+                if phone:
+                    break
+    
+    # Telefonu tekrar kontrol et - Açılış saati yerine telefon göstermediğinden emin ol
+    if phone and (re.match(r'^\d{1,2}:\d{2}$', phone) or "Kapanış saati" in phone or "Açılış zamanı" in phone):
+        phone = ""
+    
+    # E-posta aramaya devam et
+    if not email:
+        email_matches = re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', item)
+        if email_matches:
+            email = email_matches[0]
+    
+    # Web sitesi bulunamadıysa, ilgili metni ara
+    if not website:
+        for pattern in website_patterns:
+            website_matches = re.findall(pattern, item)
+            if website_matches:
+                website = website_matches[0] if isinstance(website_matches[0], str) else website_matches[0][0]
+                break
+    
+    # Ayrıştırılmış verileri ekle
+    return {
+        'Ülke': country,
+        'Eyalet/Şehir': state,
+        'Dil': language,
+        'Şirket Adı': company_name,
+        'İşletme Türü': location_type,
+        'Adres': address,
+        'Telefon': phone,
+        'E-posta': email,
+        'Web Sitesi': website,
+        'Değerlendirme': rating,
+        'Puan': rating_value,
+        'Yorum Sayısı': review_count,
+        'Açıklama': description,
+        'Çalışma Saatleri': opening_hours,
+        'Tüm Bilgiler': item
+    }
+
+# Main bloğuna iyileştirmeler ekliyorum
 if __name__ == "__main__":
     # Komut satırı argümanına göre işlem yap
     import sys
@@ -2310,7 +2427,120 @@ if __name__ == "__main__":
     # Eğer "coal" argümanı varsa, kömür madenleri için özel arama yap
     elif len(sys.argv) > 1 and sys.argv[1] == "coal":
         print("Kömür madenleri ve maden ocakları arama işlemi başlıyor...")
-        results = search_coal_mines_worldwide()
+        
+        # İkinci argüman varsa, belirli bir ülke için arama yap
+        if len(sys.argv) > 2:
+            country = sys.argv[2]
+            if country in COUNTRIES_INFO:
+                print(f"Sadece {country} için arama yapılıyor...")
+                # Sadece tek ülke için arama yapacak kod yapısı
+                all_results = {}
+                json_files = []
+                
+                info = COUNTRIES_INFO[country]
+                country_lang = info['dil']
+                print(f"\n=== {country} ÜLKESİ ARANIYOR (Dil: {country_lang}) ===")
+                country_results = {}
+                
+                # Ülkenin kendi dilindeki kömür madeni ve maden ocağı terimlerini kullan
+                if country_lang in COAL_MINE_TERMS:
+                    search_terms = COAL_MINE_TERMS[country_lang]
+                else:
+                    # Eğer dil desteklenmiyorsa, İngilizce terimleri kullan
+                    search_terms = COAL_MINE_TERMS['en']
+                    print(f"Uyarı: {country_lang} dili desteklenmiyor, İngilizce terimler kullanılıyor.")
+                
+                # Önce genel ülke araması
+                country_lang_results = []
+                for term in search_terms:
+                    search_query = f"{term} {country}"
+                    print(f"Ülke Araması: {search_query}")
+                    
+                    try:
+                        results = search(search_query)
+                        if results:
+                            country_lang_results.extend(results)
+                            print(f"{len(results)} sonuç bulundu")
+                    except Exception as e:
+                        print(f"Hata oluştu: {e}")
+                        continue
+                
+                if country_lang_results:
+                    # Genel ülke sonuçlarını kaydet
+                    json_file = save_results(country_lang_results, f"{country}_genel", country_lang)
+                    json_files.append(json_file)
+                    
+                    # Ülkenin genel sonuçlarını ekle
+                    country_results["genel"] = country_lang_results
+                    
+                # Şimdi eyalet/şehir bazlı aramalar
+                state_results = {}
+                for state in info['eyaletler']:
+                    print(f"\n--- {state} eyaleti/şehri için arama yapılıyor ---")
+                    state_lang_results = []
+                    
+                    for term in search_terms:
+                        search_query = f"{term} {state} {country}"
+                        print(f"Eyalet Araması: {search_query}")
+                        
+                        try:
+                            results = search(search_query)
+                            if results:
+                                state_lang_results.extend(results)
+                                print(f"{len(results)} sonuç bulundu")
+                        except Exception as e:
+                            print(f"Hata oluştu: {e}")
+                            continue
+                    
+                    if state_lang_results:
+                        state_results[state] = state_lang_results
+                        # Eyalet sonuçlarını kaydet
+                        json_file = save_results(state_lang_results, f"{country}_{state}", country_lang)
+                        json_files.append(json_file)
+                
+                if state_results:
+                    country_results["eyaletler"] = state_results
+                
+                if country_results:
+                    all_results[country] = country_results
+                
+                # Tüm sonuçları kaydet
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                json_filename = f"{country}_coal_mines_{timestamp}.json"
+                with open(json_filename, 'w', encoding='utf-8') as f:
+                    json.dump(all_results, f, ensure_ascii=False, indent=2)
+                print(f"\nTüm sonuçlar {json_filename} dosyasına kaydedildi.")
+                json_files.append(json_filename)
+                
+                # JSON dosyalarını ayrı ayrı Excel'e dönüştür
+                print("\nJSON dosyaları paralel olarak Excel'e dönüştürülüyor...")
+                excel_files = []
+                with concurrent.futures.ThreadPoolExecutor() as executor:
+                    future_to_file = {executor.submit(json_to_excel, file): file for file in json_files}
+                    for future in concurrent.futures.as_completed(future_to_file):
+                        result = future.result()
+                        if result:
+                            excel_files.append(result)
+                            print(f"Dönüştürüldü: {result}")
+                
+                # Tek bir büyük Excel dosyası da oluştur
+                print("\nAyrıca tüm kömür madeni sonuçları tek bir Excel dosyasına dönüştürülüyor...")
+                excel_filename = create_combined_excel_coal_mines(all_results, timestamp)
+                if excel_filename:
+                    excel_files.append(excel_filename)
+                    print(f"Tüm sonuçlar tek bir dosyada toplandı: {excel_filename}")
+                
+                # Oluşturulan tüm Excel dosyalarını listele
+                print("\nOluşturulan Excel dosyaları:")
+                for file in excel_files:
+                    print(f"- {file}")
+            else:
+                print(f"Hata: {country} ülkesi tanımlı değil. Mevcut ülkeler:")
+                for c in COUNTRIES_INFO.keys():
+                    print(f"- {c}")
+        else:
+            # Tüm ülkeler için arama yap
+            results = search_coal_mines_worldwide()
     else:
         print("Maden şirketleri arama işlemi başlıyor...")
         results = search_mining_companies()
